@@ -1,0 +1,35 @@
+html body{
+    font-family:cursive;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+#create-form{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+#createBtn{
+    width: 20rem;
+}
+img{
+    width: 300px;
+}
+#modal-form{
+    display: flex;
+    flex-direction: column;
+}
+.modal-window{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    max-width: 30%;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#passwordInpForAdmin{
+    display: none;
+}
